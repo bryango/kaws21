@@ -54,6 +54,7 @@ body {
   background-color: #556E5B;
   background-image: url("title.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 .parallax-window {
@@ -63,7 +64,7 @@ body {
 }
 
 .tm-header {
-  position: absolute;
+  /* position: absolute; */
   top: 40px;
   bottom: 0;
   left: 0;
@@ -74,6 +75,7 @@ body {
 
 .tm-header-inner {
   padding: 40px 25px;
+  padding-bottom: 20px;
 }
 
 
@@ -105,6 +107,7 @@ body {
 
 
 .tm-site-title {
+    padding-top: 35px;
     font-size: 3.6rem;
     font-weight: 200;
 }
@@ -117,7 +120,7 @@ body {
 
 
 .tm-nav {
-	position:absolute;
+	/* position:absolute; */
 	  display: inline-block;
   text-align: left;
   margin-top: 10px;
@@ -127,7 +130,7 @@ margin-left: -55px;
 
 @media (max-width: 670px) {
   .tm-site-title {
-    padding-top:20px;
+    padding-top:60px;
     font-size: 2.6rem;
   }
 }
@@ -137,7 +140,8 @@ margin-left: -55px;
     top: -15px;
   }
     .tm-site-title {
-		padding-top:10px;
+    padding-top:0px;
+    margin-top: -20px;
 		    font-size: 2.0rem;
 	}
 	.tm-site-description {
@@ -164,6 +168,7 @@ margin-left: -55px;
 .tm-nav-ul {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 0px;
 }
 
 
@@ -199,7 +204,7 @@ margin-left: -55px;
   }
   
   
-  @media (max-width: 600px) {
+  @media (max-width: 620px) {
   	.tm-nav-ul {
   		  display: block;
   	}
@@ -575,6 +580,7 @@ h5 {
 h6 {
   font-size: 1.2rem;
   letter-spacing: -.05rem;
-  line-height: 0;
+  line-height: 1.2;
+  margin-bottom: .5rem;
 }
 
