@@ -132,6 +132,7 @@ margin-left: -55px;
   .tm-site-title {
     padding-top:60px;
     font-size: 2.6rem;
+    font-weight: 400;
   }
 }
 
@@ -145,7 +146,8 @@ margin-left: -55px;
 		    font-size: 2.0rem;
 	}
 	.tm-site-description {
-	  font-size: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
 	}
 	.tm-nav {
 	  margin-top: -10px;
@@ -186,6 +188,7 @@ margin-left: -55px;
   color: white;
   text-decoration: none;
   padding-bottom: 10px;
+  text-shadow: 2px 2px 5px gray;
 }
 
 .tm-nav-link.active,
