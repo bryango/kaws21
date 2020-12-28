@@ -452,16 +452,27 @@ ul {
 }
 
 table {
-  border-spacing: 0;
-  width: 100%;
+  border-spacing: 0pt;
+  max-width: 950px;
     margin: 0 auto;
+	margin: 0px 0px 0px 0px;
+}
+
+thead tr {
+    text-align: left;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
 }
 
 td,
 th {
   /* border-bottom: 0.1rem solid #e1e1e1; */ 
   padding: .6rem 2rem;
+  padding: 8px 20px;
   text-align: left;
+  text-padding: 100px 100px;
 }
 
 table.borders td, th {
